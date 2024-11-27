@@ -22,7 +22,12 @@ The goal of this project is to accurately predict multiple attributes of fashion
 5. **Flexible and Modular**: Easily customizable for different datasets and attribute categories.
 
 ---
+Results
 
+![alt text](https://github.com/kenaimachine/fashion-attributes/blob/main/images/ranking.png)
+
+![alt text](https://github.com/kenaimachine/fashion-attributes/blob/main/images/trainingcurve.png)
+---
 ## File Structure
 
 - `Fashion_attributes_classifier.ipynb`: Jupyter Notebook with the main implementation.
