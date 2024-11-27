@@ -5,12 +5,20 @@ This repository contains the implementation of a deep learning-based solution fo
 
 ## Project Overview
 
-The goal of this project is to accurately predict multiple attributes of fashion items using a dataset of annotated fashion images. This solution has applications in fashion retail, e-commerce, and content-based image retrieval systems. Key highlights include:
+The goal of this project is to accurately predict multiple attributes of fashion items using a dataset of annotated fashion images. 
+The dataset has 6000 images, divided into 5000 images for training and 1000 for validation. The test set will be hosted online for final evaluation.
+The dataset employs 26 attribute labels that are common descriptions of garments. These attributes are grouped into 6 major categories. Every image is annotated with 6 attributes, one from each category.
+Your algorithm is required to predict which attributes a given image has. Therefore, this is a multi-label classification problem.
+
+![alt_text](https://github.com/kenaimachine/fashion-attributes/blob/main/images/fashionattributes.png)
+
+
+This solution has applications in fashion retail, e-commerce, and content-based image retrieval systems. Key highlights include:
 
 - **Custom Neural Network**: Incorporates attention mechanisms and independent classifiers for multi-label prediction.
 - **Advanced Data Preprocessing**: Features robust data augmentation and oversampling to address class imbalance.
 - **Custom Loss Function**: Employs a Weighted Focal Loss to improve performance on underrepresented attributes.
-
+https://github.com/kenaimachine/fashion-attributes/blob/main/images/fashionattributes.png
 ---
 
 ## Features
